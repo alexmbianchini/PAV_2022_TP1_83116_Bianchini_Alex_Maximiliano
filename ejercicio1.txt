@@ -53,3 +53,6 @@ La página si es compatible con el estándar html indicado en la cabecera.
 
 11.	Analice las recomendaciones para mejorar la velocidad de carga de la página en https://developers.google.com/speed/pagespeed/
 
+Se puede observar que las evaluaciones de las métricas en celulares no pasan la prueba dando un rendiemiento de 46 puntos. 
+Así tampoco las métricas ejecutadas en escritorio dando un total de 42 puntos. 
+
