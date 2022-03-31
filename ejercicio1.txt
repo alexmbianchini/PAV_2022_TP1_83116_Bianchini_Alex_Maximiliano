@@ -1,0 +1,55 @@
+Ejercicio 1 
+
+
+1.	¿Cuántos Kilobytes se transfieren al navegador para visualizar la página de manera completa? Cuanto tiempo demora en cargar la página. Si se utiliza el caché del navegador, ¿demora lo mismo?
+
+Para visualizar la página de manera completa se transfieren 1227.49 kB al navegador.
+La página demora en cargar 2.88 segundos.
+Si se utiliza el caché del navegador la página no demora lo mismo en cargar, en este caso demora 2.58 segundos y se transfieren 66.2 kB.
+
+
+2.	¿La página posee errores o warnings?
+
+Sí, la página posee errores o warnings.
+
+
+3.	¿Cuál es el archivo que demora más tiempo en descargarse de la página?
+
+El archivo que demora más tiempo en cargarse es el documento www.frc.utn.edu.ar
+
+
+4.	¿Todos los archivos provienen del mismo servidor?
+
+No, los archivos provienen de distintos servidores.
+
+
+
+5.	¿Cuántas imágenes posee? ¿cuánto tiempo demora en descargarlas? ¿Cuál es la imagen de mayor tamaño en kilobytes que se descarga del sitio?
+
+La página posee 71 imágenes y demora 58 milisegundos en descargarlas, la imagen de mayor tamaño en kilobytes es “Banner%20jiso%202022%20Este%20Web.png”
+
+
+6.	¿Cuántos archivos de hojas de estilo utiliza?
+
+Se utilizan 4 archivos de hoja de estilo
+
+7.	En qué versión de html indica el documento que está realizada la página
+
+La versión de HTML de la página web es HTML5
+
+
+8.	¿Los archivos javascript y/o css están minificados?
+
+Solo algunos archivos están minificados.
+
+
+9.	¿Qué tiempo demoraría la página en descargar en un equipo con señal de datos de una red Regular 3G?
+
+La página demoraría 38,5 segundos en descargar en 3G Lento y 11.13 segundos en 3G Rápido.
+
+10.	La página es compatible con el estándar html indicado en la cabecera. Analice la misma en https://validator.w3.org/
+
+La página si es compatible con el estándar html indicado en la cabecera.
+
+11.	Analice las recomendaciones para mejorar la velocidad de carga de la página en https://developers.google.com/speed/pagespeed/
+

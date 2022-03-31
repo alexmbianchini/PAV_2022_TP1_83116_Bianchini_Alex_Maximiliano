@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+<h1>Registro de Cliente</h1>
+
+<h3>Complete el siguente formulario</h3>
+
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+    <div style="padding:15px;margin:5px">
+
+        <label for="nombre">Ingrese su nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+    </div>
+
+    <div style="padding:15px;margin:5px">
+        <label for="clave">Contraseña:</label>
+        <input type="password" name="clave" id="clave">
+
+    </div>
+
+    
+
+    <div style="padding:15px;margin:5px">    
+
+        <label for="sexo">Sexo: <br></label>
+        <input type="radio" name="sexo" id="sexo" value="1">Masculino <br>
+        <input type="radio" name="sexo" id="sexo" value="2">Femenino <br>
+        <input type="radio" name="sexo" id="sexo" value="3">Otro <br>
+
+    </div>
+
+    <div style="padding:15px;margin:5px"> 
+        <label for="hijos">Tiene hijos? <br></label>
+        <input type="checkbox" name="hijos" id="hijos" value="1">Si <br>
+        <input type="checkbox" name="hijos" id="hijos" value="2">No <br>
+    </div>
+
+    <div style="padding:15px;margin:5px">
+
+        <label for="cantidad_hijos"> En caso afirmativo indique la cantidad de hijos <br></label>
+        <select name="cantidad_hijos" id="cantidad_hijos">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">Mas</option>
+        </select>
+    </div>
+
+        <label for="descripcion">Ingrese una descripcion suya: <br></label>
+        <textarea name="descripcion" id="descipcion" cols="15" rows="5"></textarea>
+
+    <div style="padding:15px;margin:5px">
+        <input type="submit" value="Enviar Datos" name="enviar_datos">
+        
+    
+        <input type="button" value="Reenviar Datos" name="reenviar_datos" onclick="confirm('Desea reenviar los datos?')?submit():''">
+    
+    </div>
+    
+    </form>
+</body>
+</html>
